@@ -11,20 +11,16 @@ O objetivo desta aplicação é prover ao usuário um controle dos seus gastos m
 ### Tela principal
 Essa tela exibe os gastos do usuário a cada mês, exibindo Descrição e valor e também um total de todos itens no mês
 
-![Tela Principal](https://github.com/jhunior244/economizei/blob/master/assets/compras.JFIF?raw=true)
+![Tela Principal](https://github.com/jhunior244/economizei/blob/master/assets/compras.jfif?raw=true)
 
 ### Tela de cadastro de gasto
 Nesta outra tela, o usuário pode cadastrar suas despesas
 
-![Tela de cadastro](https://github.com/jhunior244/economizei-pwa/blob/master/assets/tela2.PNG?raw=true)
+![Tela de cadastro](https://github.com/jhunior244/economizei/blob/master/assets/cadastro.jfif?raw=true)
 
 ## 2. Dados do usuário
 Nesta aplicação, os dados do usuário que são armazenados são uma lista de objetos, 
-onde cada objeto possui uma id (no padrão UUID), uma descricao, uma data e o tipo do gasto (lanche, saúde e etc)
-
-## 2. Dados do usuário
-Nesta aplicação, os dados do usuário que são armazenados são uma lista de objetos, 
-onde cada objeto possui uma id (no padrão UUID), uma descricao, uma data e o tipo do gasto (lanche, saúde e etc)
+onde cada objeto possui uma id, uma descricao e a data
 
 ## 3. Checklist de implementação
 
@@ -37,12 +33,11 @@ onde cada objeto possui uma id (no padrão UUID), uma descricao, uma data e o ti
 - A aplicação armazena e usa de forma relevante dados complexos do usuário? 
 **Sim**
 
-- A aplicação possui um manifesto para instalação no dispositivo do usuário? 
+- A aplicação tem um componente com rolagem? 
 **Sim**
 
-- A aplicação possui um _service worker_ que permite o funcionamento off-line? 
-**Sim** (no entanto não tenho certeza se está se comportando corretamente, as vezes quando recarrego a 
-página ele tenta buscar o recurso da web mesmo este estando presente no cache e não consegui detectar o motivo)
+- A aplicação tem um campo de formulário que é devidamente tratado?
+**Sim** 
 
 - O código da minha aplicação possui comentários explicando cada operação? 
 **Sim**
