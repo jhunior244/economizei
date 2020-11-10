@@ -1,5 +1,4 @@
-# NOME DA APLICAÇÃO
-Economizei
+# NOME DA APLICAÇÃO: Economizei
 
 **Nome do aluno**
 Junior Moreira de Souza
